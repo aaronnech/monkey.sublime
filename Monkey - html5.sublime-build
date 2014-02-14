@@ -5,14 +5,14 @@
 
 	"windows":
 	{
-		"cmd": ["transcc_winnt.exe", "-target=html5", "-run", "\"$file\""]
+		"cmd": ["transcc_winnt.exe", "-target=Html5_Game", "-run", "\"$file\""]
 	},
 	"linux":
 	{
-		"cmd": ["transcc_linux", "-target=html5", "-run", "\"$file\""]
+		"cmd": ["transcc_linux", "-target=Html5_Game", "-run", "\"$file\""]
 	},
 	"osx":
 	{
-		"cmd": ["transcc_macos", "-target=html5", "-run", "\"$file\""]
+		"cmd": ["transcc_macos", "-target=Html5_Game", "-run", "\"$file\""]
 	}
 }

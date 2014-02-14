@@ -5,14 +5,14 @@
 
 	"windows":
 	{
-		"cmd": ["transcc_winnt.exe", "-target=glfw", "-run", "\"$file\""]
+		"cmd": ["transcc_winnt.exe", "-target=Glfw_Game", "-run", "\"$file\""]
 	},
 	"linux":
 	{
-		"cmd": ["transcc_linux", "-target=glfw", "-run", "\"$file\""]
+		"cmd": ["transcc_linux", "-target=Glfw_Game", "-run", "\"$file\""]
 	},
 	"osx":
 	{
-		"cmd": ["transcc_macos", "-target=glfw", "-run", "\"$file\""]
+		"cmd": ["transcc_macos", "-target=Glfw_Game", "-run", "\"$file\""]
 	}
 }
