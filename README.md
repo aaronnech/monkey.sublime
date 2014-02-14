@@ -4,6 +4,7 @@ monkey.sublime
 This bundle lets you to use the multi-platform editor [Sublime Text](http://www.sublimetext.com) as an IDE for the [monkey programming language](http://www.monkeycoder.co.nz). It is based on [monkey.tmbundle](https://github.com/gingerbeardman/monkey.tmbundle).
 
 Created by Matt Sephton, [http://www.gingerbeardman.com/monkey/](http://www.gingerbeardman.com/monkey/)
+Forked, Updated by Aaron Nech, [http://www.aaronnech.com](http://www.aaronnech.com/)
 
 ## Features
 
@@ -24,28 +25,31 @@ Navigate around your source using the index of functions, classes and methods
 
 ...and more to come
 
-## Mac OS X
+## Installation
 
-### Installation
+Download/Install the Package Manager for sublime text instructions here: [https://sublime.wbond.net/installation](https://sublime.wbond.net/installation)
 
-Please check that the download is named `monkey.sublime` and not something else. You may have to rename it.
+Once it is installed, use Preferences->Package Manager in sublime, and use the command "Add Repository" It will require a URL. Simply use the url of this repository [https://github.com/aaronnech/monkey.sublime](https://github.com/aaronnech/monkey.sublime) WITHOUT the ".git".
 
-Unzip to:
-
-	~/Library/Application Support/Sublime Text/Packages/
-
-Next, you will need to add your monkey/bin folder to your Environment PATH.  
-This is currently a bit awkward but may hopefully become easier as Sublime Text allows stuff like this to be defined in the editor prefrences.
+Now enter the "Install Package" command and install monkey.sublime.
 
 ### Adding monkey to your PATH
 There are two paths in Mac OS X, the $PATH used by Terminal/shells and the Environment PATH as used by Windowed apps.  
-We'll add to both, just in case you need to use trans_macos from a shell as well as Sublime Text.
+We'll add to both, just in case you need to use trans_macos from a shell as well as Sublime Text. There is also the $PATH variable in most Linux systems.
+
+This is how sublime will be able to find your Monkey executables and compile your application with the build tools. So you must add the Monkey executables to your $PATH variable.
 
 #### Adding to the Terminal/shell $PATH
-
+	
+	In OSX, it is usually something along the lines of:
     echo "export PATH=\$PATH:/user/folder/monkey/bin" >> ~/.profile
 
-#### Adding to the Environment PATH
+    In Linux, you can edit your ~/.bashrc file and add the line:
+    export PATH=/path/to/monkey/bin:${PATH}
+
+#### Adding to the Environment PATH / Other things
+
+You may need to do the following as well(in OSX):
 
 Assuming you have done the step above, in Terminal:
 
@@ -56,34 +60,22 @@ Either way, the goal is to add your monkey/bin path to the PATH variable in your
 
 You will need to restart Mac OS X for the changes to take effect.
 
-### Debugging your PATH
-Bring up the Console using the View menu, then type:
-
-	import os
-	os.environ["PATH"]
-
-Your current Environment PATH as recognised by Sublime will be echoed to the console.  
-If you do not see your monkey/bin folder listed, you will need to repeat the steps listed in _Adding monkey to your PATH_.
-
-## Windows
-
-Support for Microsoft Windows is present. You will need to add your monkey/bin folder to the system PATH.
-
-## Linux
-
-There is currently no Linux support as Monkey does not currently support it.
+In Linux you may need need to type "source ~/.bashrc" to load in the changes; alternatively you can restart.
 
 ## Support
-You can talk about the bundle on the [official monkey forum](http://www.monkeycoder.co.nz/Community/posts.php?topic=593)
+You can talk about the bundle on the [official monkey forum](http://www.monkeycoder.co.nz/Community/)
 
 ## Requirements
-- Sublime Text 2 [http://www.sublimetext.com/2](http://www.sublimetext.com/2)
+- Sublime Text 3 [http://www.sublimetext.com/3](http://www.sublimetext.com/3)
 - monkey [http://www.monkeycoder.co.nz](http://www.monkeycoder.co.nz)
 
 ## License
 monkey.sublime is made available under a [Creative Commons Attribution-Share Alike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0).
 
-## Changelog
+## Changelog (copied from old README from forked git repository):
+2014-02-15
+- Changed BUILD files adding cross platform support
+- Updated instructions for easier installation using Sublime Package Manager
 
 2012-05-04  
 - Added DrawPoint (v50)  

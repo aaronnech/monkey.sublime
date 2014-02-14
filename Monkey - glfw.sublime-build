@@ -7,5 +7,13 @@
 	"windows":
 	{
 		"cmd": ["trans_winnt.exe", "-target=glfw", "-run", "\"$file\""]
+	},
+	"linux":
+	{
+		"cmd": ["trans_linux", "-target=glfw", "-run", "\"$file\""]
+	},
+	"osx":
+	{
+		"cmd": ["trans_macos", "-target=glfw", "-run", "\"$file\""]
 	}
 }

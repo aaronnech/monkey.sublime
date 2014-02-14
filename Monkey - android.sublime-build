@@ -7,5 +7,13 @@
 	"windows":
 	{
 		"cmd": ["trans_winnt.exe", "-target=android", "-run", "\"$file\""]
+	},
+	"linux":
+	{
+		"cmd": ["trans_linux", "-target=android", "-run", "\"$file\""]
+	},
+	"osx":
+	{
+		"cmd": ["trans_macos", "-target=android", "-run", "\"$file\""]
 	}
 }
