@@ -5,14 +5,14 @@
 
 	"windows":
 	{
-		"cmd": ["trans_winnt.exe", "-target=xna", "-run", "\"$file\""]
+		"cmd": ["transcc_winnt.exe", "-target=xna", "-run", "\"$file\""]
 	},
 	"linux":
 	{
-		"cmd": ["trans_linux", "-target=xna", "-run", "\"$file\""]
+		"cmd": ["transcc_linux", "-target=xna", "-run", "\"$file\""]
 	},
 	"osx":
 	{
-		"cmd": ["trans_macos", "-target=xna", "-run", "\"$file\""]
+		"cmd": ["transcc_macos", "-target=xna", "-run", "\"$file\""]
 	}
 }

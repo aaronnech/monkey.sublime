@@ -1,19 +1,18 @@
 {
-	"cmd": ["trans_macos", "-target=android", "-run", "\"$file\""],
 	"working_dir": "${project_path:${folder:${file_path}}}",
 	"file_regex": "(...*?)<([0-9]*)>",
 	"selector": "source.monkey",
 
 	"windows":
 	{
-		"cmd": ["trans_winnt.exe", "-target=android", "-run", "\"$file\""]
+		"cmd": ["transcc_winnt.exe", "-target=android", "-run", "\"$file\""]
 	},
 	"linux":
 	{
-		"cmd": ["trans_linux", "-target=android", "-run", "\"$file\""]
+		"cmd": ["transcc_linux", "-target=android", "-run", "\"$file\""]
 	},
 	"osx":
 	{
-		"cmd": ["trans_macos", "-target=android", "-run", "\"$file\""]
+		"cmd": ["transcc_macos", "-target=android", "-run", "\"$file\""]
 	}
 }

@@ -5,14 +5,14 @@
 
 	"windows":
 	{
-		"cmd": ["trans_winnt.exe", "-target=ios", "-run", "\"$file\""]
+		"cmd": ["transcc_winnt.exe", "-target=ios", "-run", "\"$file\""]
 	},
 	"linux":
 	{
-		"cmd": ["trans_linux", "-target=ios", "-run", "\"$file\""]
+		"cmd": ["transcc_linux", "-target=ios", "-run", "\"$file\""]
 	},
 	"osx":
 	{
-		"cmd": ["trans_macos", "-target=ios", "-run", "\"$file\""]
+		"cmd": ["transcc_macos", "-target=ios", "-run", "\"$file\""]
 	}
 }

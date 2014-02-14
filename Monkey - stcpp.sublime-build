@@ -5,14 +5,14 @@
 
 	"windows":
 	{
-		"cmd": ["trans_winnt.exe", "-target=stdcpp", "-run", "\"$file\""]
+		"cmd": ["transcc_winnt.exe", "-target=stdcpp", "-run", "\"$file\""]
 	},
 	"linux":
 	{
-		"cmd": ["trans_linux", "-target=stdcpp", "-run", "\"$file\""]
+		"cmd": ["transcc_linux", "-target=stdcpp", "-run", "\"$file\""]
 	},
 	"osx":
 	{
-		"cmd": ["trans_macos", "-target=stdcpp", "-run", "\"$file\""]
+		"cmd": ["transcc_macos", "-target=stdcpp", "-run", "\"$file\""]
 	}
 }
