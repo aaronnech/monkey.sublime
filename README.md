@@ -4,6 +4,7 @@ monkey.sublime
 This bundle lets you to use the multi-platform editor [Sublime Text](http://www.sublimetext.com) as an IDE for the [monkey programming language](http://www.monkeycoder.co.nz). It is based on [monkey.tmbundle](https://github.com/gingerbeardman/monkey.tmbundle).
 
 Created by Matt Sephton, [http://www.gingerbeardman.com/monkey/](http://www.gingerbeardman.com/monkey/)
+
 Forked, Updated by Aaron Nech, [http://www.aaronnech.com](http://www.aaronnech.com/)
 
 ## Features
@@ -35,9 +36,11 @@ Now enter the "Install Package" command and install monkey.sublime.
 
 ### Adding monkey to your PATH
 There are two paths in Mac OS X, the $PATH used by Terminal/shells and the Environment PATH as used by Windowed apps.  
-We'll add to both, just in case you need to use trans_macos from a shell as well as Sublime Text. There is also the $PATH variable in most Linux systems.
+We'll add to both, just in case you need to use trans_macos from a shell as well as Sublime Text.
 
-This is how sublime will be able to find your Monkey executables and compile your application with the build tools. So you must add the Monkey executables to your $PATH variable.
+There is also the $PATH variable in most Linux systems that you will need to update.
+
+This is how sublime will be able to find your Monkey executables and compile your application with the build tools. So you must add the Monkey executables to your $PATH variable. It essentially puts executables into the global scope of the terminal and allows sublime to execute them without knowing where they are stored on your computer.
 
 #### Adding to the Terminal/shell $PATH
 	
