@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>PlayMusic( "${1:path$}", ${2:flags} )$3</string>
+	<key>name</key>
+	<string>PlayMusic</string>
+	<key>scope</key>
+	<string>source.monkey</string>
+	<key>tabTrigger</key>
+	<string>playmusic</string>
+	<key>uuid</key>
+	<string>695F606B-583A-478E-B827-7735B8161423</string>
+</dict>
+</plist>

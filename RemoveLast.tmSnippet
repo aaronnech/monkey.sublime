@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>RemoveLast()$1</string>
+	<key>name</key>
+	<string>RemoveLast</string>
+	<key>scope</key>
+	<string>source.monkey</string>
+	<key>tabTrigger</key>
+	<string>removelast</string>
+	<key>uuid</key>
+	<string>2BE6F350-E76A-4587-83DE-3F57D6B4B9BF</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>MusicState()$1</string>
+	<key>name</key>
+	<string>MusicState</string>
+	<key>scope</key>
+	<string>source.monkey</string>
+	<key>tabTrigger</key>
+	<string>musicstate</string>
+	<key>uuid</key>
+	<string>BB0303C4-6EB5-41B1-BAF4-488EEF767EDA</string>
+</dict>
+</plist>

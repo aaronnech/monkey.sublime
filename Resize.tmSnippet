@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Resize( ${1:newLength} )$2</string>
+	<key>name</key>
+	<string>Resize</string>
+	<key>scope</key>
+	<string>source.monkey</string>
+	<key>tabTrigger</key>
+	<string>resize</string>
+	<key>uuid</key>
+	<string>65AEE59D-6D4F-427C-B26E-A241B19824CD</string>
+</dict>
+</plist>

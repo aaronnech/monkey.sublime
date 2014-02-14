@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>DisableKeyboard()$1</string>
+	<key>name</key>
+	<string>DisableKeyboard</string>
+	<key>scope</key>
+	<string>source.monkey</string>
+	<key>tabTrigger</key>
+	<string>disablekeyboard</string>
+	<key>uuid</key>
+	<string>F39B7A53-35A0-4044-ABAC-7C74D29E95CE</string>
+</dict>
+</plist>

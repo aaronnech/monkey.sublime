@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Sinr( ${1:x} )$2</string>
+	<key>name</key>
+	<string>Sinr</string>
+	<key>scope</key>
+	<string>source.monkey</string>
+	<key>tabTrigger</key>
+	<string>sinr</string>
+	<key>uuid</key>
+	<string>1E8FDC26-8272-4BA7-8309-5B388DCD3851</string>
+</dict>
+</plist>
