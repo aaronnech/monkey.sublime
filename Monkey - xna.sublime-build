@@ -5,14 +5,14 @@
 
 	"windows":
 	{
-		"cmd": ["transcc_winnt.exe", "-target=xna", "-run", "\"$file\""]
+		"cmd": ["transcc_winnt.exe", "-target=Xna_Game", "-run", "\"$file\""]
 	},
 	"linux":
 	{
-		"cmd": ["transcc_linux", "-target=xna", "-run", "\"$file\""]
+		"cmd": ["transcc_linux", "-target=Xna_Game", "-run", "\"$file\""]
 	},
 	"osx":
 	{
-		"cmd": ["transcc_macos", "-target=xna", "-run", "\"$file\""]
+		"cmd": ["transcc_macos", "-target=Xna_Game", "-run", "\"$file\""]
 	}
 }

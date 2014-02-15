@@ -5,14 +5,14 @@
 
 	"windows":
 	{
-		"cmd": ["transcc_winnt.exe", "-target=android", "-run", "\"$file\""]
+		"cmd": ["transcc_winnt.exe", "-target=Android_Game", "-run", "\"$file\""]
 	},
 	"linux":
 	{
-		"cmd": ["transcc_linux", "-target=android", "-run", "\"$file\""]
+		"cmd": ["transcc_linux", "-target=Android_Game", "-run", "\"$file\""]
 	},
 	"osx":
 	{
-		"cmd": ["transcc_macos", "-target=android", "-run", "\"$file\""]
+		"cmd": ["transcc_macos", "-target=Android_Game", "-run", "\"$file\""]
 	}
 }

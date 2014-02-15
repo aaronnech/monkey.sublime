@@ -5,14 +5,14 @@
 
 	"windows":
 	{
-		"cmd": ["transcc_winnt.exe", "-target=flash", "-run", "\"$file\""]
+		"cmd": ["transcc_winnt.exe", "-target=Flash_Game", "-run", "\"$file\""]
 	},
 	"linux":
 	{
-		"cmd": ["transcc_linux", "-target=flash", "-run", "\"$file\""]
+		"cmd": ["transcc_linux", "-target=Flash_Game", "-run", "\"$file\""]
 	},
 	"osx":
 	{
-		"cmd": ["transcc_macos", "-target=flash", "-run", "\"$file\""]
+		"cmd": ["transcc_macos", "-target=Flash_Game", "-run", "\"$file\""]
 	}
 }

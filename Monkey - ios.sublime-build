@@ -5,14 +5,14 @@
 
 	"windows":
 	{
-		"cmd": ["transcc_winnt.exe", "-target=ios", "-run", "\"$file\""]
+		"cmd": ["transcc_winnt.exe", "-target=iOS_Game", "-run", "\"$file\""]
 	},
 	"linux":
 	{
-		"cmd": ["transcc_linux", "-target=ios", "-run", "\"$file\""]
+		"cmd": ["transcc_linux", "-target=iOS_Game", "-run", "\"$file\""]
 	},
 	"osx":
 	{
-		"cmd": ["transcc_macos", "-target=ios", "-run", "\"$file\""]
+		"cmd": ["transcc_macos", "-target=iOS_Game", "-run", "\"$file\""]
 	}
 }
