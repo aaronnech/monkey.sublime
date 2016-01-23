@@ -76,6 +76,9 @@ You can talk about the bundle on the [official monkey forum](http://www.monkeyco
 monkey.sublime is made available under a [Creative Commons Attribution-Share Alike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0).
 
 ## Changelog (copied from old README from forked git repository):
+2016-01-23
+- Updated GLFW build target to use latest syntax and support GLFW2 and 3
+
 2014-02-15
 - Changed BUILD files adding cross platform support
 - Updated instructions for easier installation using Sublime Package Manager

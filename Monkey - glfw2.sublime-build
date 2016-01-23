@@ -1,0 +1,18 @@
+{
+	"working_dir": "${project_path:${folder:${file_path}}}",
+	"file_regex": "(...*?)<([0-9]*)>",
+	"selector": "source.monkey",
+
+	"windows":
+	{
+		"cmd": ["transcc_winnt.exe", "-target=Desktop_Game_(Glfw2)", "-run", "\"$file\""]
+	},
+	"linux":
+	{
+		"cmd": ["transcc_linux", "-target=Desktop_Game_(Glfw2)", "-run", "\"$file\""]
+	},
+	"osx":
+	{
+		"cmd": ["transcc_macos", "-target=Desktop_Game_(Glfw2)", "-run", "\"$file\""]
+	}
+}
